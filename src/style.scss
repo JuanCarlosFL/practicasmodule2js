@@ -1,3 +1,9 @@
+$size: 24px;
+$color-button-text: white;
+$border-color: red;
+$background-item: aquamarine;
+$background-throw: green;
+
 body{
     margin:0;
     padding: 0;
@@ -20,19 +26,19 @@ body{
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 1px solid red;
-    background-color: aquamarine;
-    font-size: 24px;
+    border: 1px solid $border-color;
+    background-color: $background-item;
+    font-size: $size;
   }
 
   #message, #coins{
     margin:10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
+    font-size: $size;
   }
   
   #throw{
     padding: 10px;
-    background-color: green;
-    color: white;
+    background-color: $background-throw;
+    color: $color-button-text;
   }
